@@ -212,7 +212,7 @@ public class Player_Start : MonoBehaviour
 
 
 	}
-
+	/*
 	void ShowRewardedVideo()
 	{
 		ShowOptions options = new ShowOptions();
@@ -220,32 +220,9 @@ public class Player_Start : MonoBehaviour
 
 		Advertisement.Show("rewardedVideo", options);
 	}
+	*/
 
-
-
-	void HandleShowResult
-		(ShowResult result)
-	{
-		if (result == ShowResult.Finished)
-		{
-			Debug.Log("Video completed");
-			Reserect();
-		}
-		else if (result == ShowResult.Skipped)
-		{
-			Debug.LogWarning("Video was skipped No Reward will be given");
-			Skiped = true;
-			ReviveScreen = false;
-			ADError = false;
-		}
-		else if (result == ShowResult.Failed)
-		{
-			ReviveScreen = false;
-			ADError = false;
-			Debug.LogError("Video failed to show");
-			Invoke("AdERROR", 1);
-		}
-	}
+		
 
 	void Reserect()
 	{
@@ -378,7 +355,6 @@ public class Player_Start : MonoBehaviour
 
 	public void ReviveCharacter()
 	{
-		ShowRewardedVideo();
 		ADError = false;
 
 	}

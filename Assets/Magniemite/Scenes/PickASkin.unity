@@ -163,12 +163,12 @@ Prefab:
     - target: {fileID: 224392359927945554, guid: f533bfed09c9c224286b7dd9fad4a2c0,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -0.65999985
+      value: -0.66000366
       objectReference: {fileID: 0}
     - target: {fileID: 224392359927945554, guid: f533bfed09c9c224286b7dd9fad4a2c0,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 1.7600002
+      value: 1.7600021
       objectReference: {fileID: 0}
     - target: {fileID: 224392359927945554, guid: f533bfed09c9c224286b7dd9fad4a2c0,
         type: 2}
@@ -493,42 +493,42 @@ Prefab:
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 1
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 2.5
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: -0.5
+      value: -198.5
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 1.1999817
+      value: -184.80002
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_AnchorMin.x
-      value: 0.47042397
+      value: 0.30116132
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.58100003
+      value: 0.3121899
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_AnchorMax.x
-      value: 0.66300005
+      value: 0.70329654
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_AnchorMax.y
-      value: 0.827
+      value: 0.836
       objectReference: {fileID: 0}
     - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
@@ -548,12 +548,31 @@ Prefab:
     - target: {fileID: 114134473721869798, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_havePropertiesChanged
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114134473721869798, guid: 620acfd90699ad9459cd99699be2f456,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
+        type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.1447
+      objectReference: {fileID: 0}
+    - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
+        type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.1447
+      objectReference: {fileID: 0}
+    - target: {fileID: 224461543974840536, guid: 620acfd90699ad9459cd99699be2f456,
+        type: 2}
+      propertyPath: m_LocalScale.z
+      value: 2.1447
+      objectReference: {fileID: 0}
+    - target: {fileID: 1977414419004948, guid: 620acfd90699ad9459cd99699be2f456, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 620acfd90699ad9459cd99699be2f456, type: 2}
@@ -679,6 +698,15 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114232700893395238, guid: 9f961cd579e31614486d5547809fdbf5,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1527031197572240, guid: 9f961cd579e31614486d5547809fdbf5, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f961cd579e31614486d5547809fdbf5, type: 2}
   m_IsPrefabAsset: 0
@@ -798,6 +826,15 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114200709329299090, guid: 4ab6e6fde99dd5448a6e5e68a6b98318,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1026621002636246, guid: 4ab6e6fde99dd5448a6e5e68a6b98318, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ab6e6fde99dd5448a6e5e68a6b98318, type: 2}
   m_IsPrefabAsset: 0
@@ -897,11 +934,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PickOriginal: 0
   PickCute: 0
-  Dragnie: 0
+  Dragnie: 1
   Magling: 0
   Link: 0
-  CharacterPicked: 0
-  PickedCharacter: 0
+  CharacterPicked: 2
+  PickedCharacter: 2
   Original: {fileID: 1013902313}
   Cute: {fileID: 1220694139}
   Dragniemite: {fileID: 704653255}
@@ -1035,6 +1072,15 @@ Prefab:
         type: 2}
       propertyPath: m_isInputParsingRequired
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114608192722346084, guid: 9cd13f4418f05994fa2f890131e47884,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1303999409346962, guid: 9cd13f4418f05994fa2f890131e47884, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd13f4418f05994fa2f890131e47884, type: 2}

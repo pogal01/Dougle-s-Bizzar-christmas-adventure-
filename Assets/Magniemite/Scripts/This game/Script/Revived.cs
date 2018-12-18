@@ -76,43 +76,12 @@ public class Revived : MonoBehaviour {
 
 	}
 
-	void ShowRewardedVideo()
-	{
-		ShowOptions options = new ShowOptions();
-		options.resultCallback = HandleShowResult;
-
-		Advertisement.Show("rewardedVideo", options);
-	}
-
-	void HandleShowResult
-		(ShowResult result)
-	{
-		if (result == ShowResult.Finished)
-		{
-			Debug.Log("Video completed");
-			Reserecting();
-		}
-		else if (result == ShowResult.Skipped)
-		{
-			Debug.LogWarning("Video was skipped No Reward will be given");
-			YouSkiped.gameObject.SetActive(true);
-			ReviveScreen.gameObject.SetActive(false);
-			AdErrorScreen.gameObject.SetActive(false);
-		}
-		else if (result == ShowResult.Failed)
-		{
-			ReviveScreen.gameObject.SetActive(false);
-			AdErrorScreen.gameObject.SetActive(true);
-			Debug.LogError("Video failed to show");
-			Invoke("AdERROR", 1);
-		}
-	}
 
 
 
 	public void ReviveCharacter()
 	{
-		ShowRewardedVideo();
+	
 		AdErrorScreen.gameObject.SetActive(false);
 
 	}

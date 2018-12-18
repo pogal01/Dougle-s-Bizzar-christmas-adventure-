@@ -459,6 +459,21 @@ Prefab:
       value: 
       objectReference: {fileID: 1955478908638452, guid: 70f61d685b0e7ab4a983f214b81f3565,
         type: 2}
+    - target: {fileID: 114859375063919470, guid: cde2188cf54bbe64395a1e4716270645,
+        type: 2}
+      propertyPath: Dragnie
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114859375063919470, guid: cde2188cf54bbe64395a1e4716270645,
+        type: 2}
+      propertyPath: CharacterPicked
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114859375063919470, guid: cde2188cf54bbe64395a1e4716270645,
+        type: 2}
+      propertyPath: PickedCharacter
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cde2188cf54bbe64395a1e4716270645, type: 2}
   m_IsPrefabAsset: 0
@@ -550,6 +565,21 @@ Prefab:
     - target: {fileID: 1811588955045416, guid: 63ea405d761e41b4db6851cd16fa5269, type: 2}
       propertyPath: m_Name
       value: InvisablePufferfish3
+      objectReference: {fileID: 0}
+    - target: {fileID: 114669989201897690, guid: 63ea405d761e41b4db6851cd16fa5269,
+        type: 2}
+      propertyPath: CharacterPicked
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114669989201897690, guid: 63ea405d761e41b4db6851cd16fa5269,
+        type: 2}
+      propertyPath: PickedCharacter
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114669989201897690, guid: 63ea405d761e41b4db6851cd16fa5269,
+        type: 2}
+      propertyPath: Dragnie
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63ea405d761e41b4db6851cd16fa5269, type: 2}

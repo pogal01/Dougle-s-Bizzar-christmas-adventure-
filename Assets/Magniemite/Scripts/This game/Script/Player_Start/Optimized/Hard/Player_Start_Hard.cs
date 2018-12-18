@@ -209,7 +209,7 @@ public class Player_Start_Hard : MonoBehaviour
 
 
 	}
-
+	/*
 	void ShowRewardedVideo()
 	{
 		ShowOptions options = new ShowOptions();
@@ -217,9 +217,9 @@ public class Player_Start_Hard : MonoBehaviour
 
 		Advertisement.Show("rewardedVideo", options);
 	}
+		*/
 
-
-
+		/*
 	void HandleShowResult
 		(ShowResult result)
 	{
@@ -242,8 +242,9 @@ public class Player_Start_Hard : MonoBehaviour
 			Debug.LogError("Video failed to show");
 			Invoke("AdERROR", 1);
 		}
+		
 	}
-
+	*/
 	void Reserect()
 	{
 		CanBeRevived = false;
@@ -474,7 +475,6 @@ public class Player_Start_Hard : MonoBehaviour
 
 	public void ReviveCharacter()
 	{
-		ShowRewardedVideo();
 		ADError = false;
 
 	}
