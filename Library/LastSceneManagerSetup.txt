@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Magniemite/Scenes/PickASkin.unity
+- path: Assets/Magniemite/Scenes/Orientation.unity
   isLoaded: 1
   isActive: 1

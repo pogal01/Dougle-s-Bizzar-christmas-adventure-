@@ -25,7 +25,7 @@ public class Destroy_player : MonoBehaviour
 		InvisPuffer3 = GameObject.Find("InvisablePufferfish3");
 		Magniemite = GameObject.Find("Magneimite");
 		Cute = GameObject.Find("Cute");
-		Dragnie = GameObject.Find("Dragniemite");
+		Dragnie = GameObject.Find("Douglas");
 		Magnieling = GameObject.Find("Magnieling");
 		Spike1 = GameObject.Find("Spike");
 		Spike2 = GameObject.Find("Spike2");

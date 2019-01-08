@@ -277,7 +277,7 @@ public class Player_Start_Normal : MonoBehaviour
 			if (InternetConnecton == true)
 			{
 
-				Revive();
+				SetDeathScore();
 
 				MagnieWalk = false;
 

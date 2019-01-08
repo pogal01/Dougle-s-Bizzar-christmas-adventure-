@@ -85,7 +85,7 @@ public class ChoseSkin : MonoBehaviour {
 		Magling = true;
 		PickedCharacter = 3;
 		//	Debug.Log("Dragniemite Picked");
-		Selected.transform.position = Dragniemite.transform.position;
+		Selected.transform.position = Magnieling.transform.position;
 		SaveChar();
 	}
 
